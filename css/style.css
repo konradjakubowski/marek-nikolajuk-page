@@ -139,6 +139,7 @@ body {
 }
 
 .interests h4 {
+  padding: 20px 0;
   text-align: center;
   color: #fff;
   font-weight: bold;
@@ -190,7 +191,7 @@ body {
 
 .contact-map img:hover {
   cursor: pointer;
-  transition: transform .9s;
+  transition: transform .9s ease-in-out;
   transform: scale(1.15);
 }
 
@@ -206,6 +207,33 @@ body {
 
 .contact-me .email {
   color: #546069;
+}
+
+.lower-info p {
+  text-align: center;
+}
+
+.teaching {
+  padding: 2% 0;
+}
+
+.teaching h2 {
+  padding: 5% 0;
+}
+
+.teaching h4 {
+  color: #DBC165;
+  font-weight: bold;
+}
+
+.teaching p {
+  color: #546069;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.teaching button {
+  margin: 60px 0 40px 0;
 }
 
 /* MEDIA QUERIES */

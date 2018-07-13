@@ -73,6 +73,7 @@ body {
     background-attachment: fixed;
     @extend .bg-pos;
     h4 {
+        padding: 20px 0;
         text-align: center;
         color: #fff;
         font-weight: bold;
@@ -116,7 +117,7 @@ body {
         padding-top: 30px;
         &:hover {
             cursor: pointer;
-            transition: transform .9s;
+            transition: transform .9s ease-in-out;
             transform: scale(1.15);
         }
     }
@@ -134,7 +135,29 @@ body {
         color: #546069;
     }
 }
-
+.lower-info {
+    p {
+        text-align: center;
+    }
+}
+.teaching {
+    padding: 2% 0;
+    h2 {
+        padding: 5% 0;
+    }
+    h4 { 
+        color: #DBC165;
+        font-weight: bold;
+    }
+    p {
+        color: #546069;
+        font-size: 20px;
+        line-height: 40px;   
+    }
+    button {
+        margin: 60px 0 40px 0;
+    }
+}
 
 
 
