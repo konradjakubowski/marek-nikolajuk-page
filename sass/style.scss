@@ -46,6 +46,7 @@ body {
         text-decoration: none;
         color: #fff;
         font-size: 20px;
+        transition: .4s;
         &:hover {
             color: #DBC165;
         }
@@ -65,6 +66,11 @@ body {
     }
     a {
         color: #a38d35;
+        transition: .4s;
+        &:hover {
+            color: #DBC165;
+            text-decoration: none;
+        }
     }
 }
 .interests {
@@ -117,7 +123,7 @@ body {
         padding-top: 30px;
         &:hover {
             cursor: pointer;
-            transition: transform .9s ease-in-out;
+            transition: transform .5s;
             transform: scale(1.15);
         }
     }
@@ -158,7 +164,20 @@ body {
         margin: 60px 0 40px 0;
     }
 }
-
+.papers {
+    padding: 2% 0 4% 0;
+    h2 {
+        padding: 3% 0;
+        color: #DBC165;
+    }
+    p {
+        font-size: 17px;
+        padding: 10px;
+    }
+    button {
+        margin: 60px 0 40px 0;
+    }
+}
 
 
 

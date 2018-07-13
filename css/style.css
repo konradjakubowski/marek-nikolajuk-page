@@ -106,6 +106,7 @@ body {
   text-decoration: none;
   color: #fff;
   font-size: 20px;
+  transition: .4s;
 }
 
 .hero a:hover {
@@ -130,6 +131,12 @@ body {
 
 .intro a {
   color: #a38d35;
+  transition: .4s;
+}
+
+.intro a:hover {
+  color: #DBC165;
+  text-decoration: none;
 }
 
 .interests {
@@ -191,7 +198,7 @@ body {
 
 .contact-map img:hover {
   cursor: pointer;
-  transition: transform .9s ease-in-out;
+  transition: transform .5s;
   transform: scale(1.15);
 }
 
@@ -233,6 +240,24 @@ body {
 }
 
 .teaching button {
+  margin: 60px 0 40px 0;
+}
+
+.papers {
+  padding: 2% 0 4% 0;
+}
+
+.papers h2 {
+  padding: 3% 0;
+  color: #DBC165;
+}
+
+.papers p {
+  font-size: 17px;
+  padding: 10px;
+}
+
+.papers button {
   margin: 60px 0 40px 0;
 }
 
