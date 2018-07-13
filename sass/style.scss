@@ -69,16 +69,19 @@ body {
 }
 .interests {
     padding: 2% 0;
+    background: url('https://image.ibb.co/hg5ru8/photo_1467685790346_20bfe73a81f0.jpg');
+    background-attachment: fixed;
+    @extend .bg-pos;
     h4 {
         text-align: center;
-        color: #DBC165;
+        color: #fff;
         font-weight: bold;
     }
     ul {
         padding-top: 20px;
         text-align: left;
         font-size: 20px;
-        color: #546069;
+        color: #fff;
         line-height: 40px;
     }
 }
