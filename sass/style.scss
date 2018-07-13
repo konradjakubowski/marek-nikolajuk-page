@@ -68,7 +68,7 @@ body {
     }
 }
 .interests {
-    padding: 6% 0;
+    padding: 2% 0;
     h4 {
         text-align: center;
         color: #DBC165;
@@ -83,7 +83,7 @@ body {
     }
 }
 .projects {
-    padding-bottom: 80px;
+    padding: 3% 0;
     text-align: center;
     h4 { 
         color: #DBC165;
@@ -104,9 +104,33 @@ body {
             transform: scale(1.05);
         }
     }
-
 }
-
+.contact-map {
+    text-align: center;
+    padding: 3% 0;
+    img {
+        width: 60%;
+        padding-top: 30px;
+        &:hover {
+            cursor: pointer;
+            transition: transform .9s;
+            transform: scale(1.15);
+        }
+    }
+    h4 { 
+        color: #DBC165;
+        font-weight: bold;
+    }
+}
+.contact-me {
+    p {
+        color: #546069;
+        font-size: 18px;  
+    }
+    .email {
+        color: #546069;
+    }
+}
 
 
 

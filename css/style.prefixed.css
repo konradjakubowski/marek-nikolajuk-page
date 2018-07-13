@@ -133,7 +133,7 @@ body {
 }
 
 .interests {
-  padding: 6% 0;
+  padding: 2% 0;
 }
 
 .interests h4 {
@@ -151,7 +151,7 @@ body {
 }
 
 .projects {
-  padding-bottom: 80px;
+  padding: 3% 0;
   text-align: center;
 }
 
@@ -177,6 +177,39 @@ body {
   transition: transform .9s, -webkit-transform .9s;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+}
+
+.contact-map {
+  text-align: center;
+  padding: 3% 0;
+}
+
+.contact-map img {
+  width: 60%;
+  padding-top: 30px;
+}
+
+.contact-map img:hover {
+  cursor: pointer;
+  transition: -webkit-transform .9s;
+  transition: transform .9s;
+  transition: transform .9s, -webkit-transform .9s;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.contact-map h4 {
+  color: #DBC165;
+  font-weight: bold;
+}
+
+.contact-me p {
+  color: #546069;
+  font-size: 18px;
+}
+
+.contact-me .email {
+  color: #546069;
 }
 
 /* MEDIA QUERIES */
