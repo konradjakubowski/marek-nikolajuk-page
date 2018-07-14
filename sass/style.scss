@@ -203,6 +203,23 @@ body {
         color: #546069;
         font-size: 15px;
     }
+    li {
+        margin-left: 5%;
+    }
+    a {
+        color: #a38d35;
+        transition: .4s;
+        &:hover {
+            color: #DBC165;
+            text-decoration: none;
+        }
+    }
+    p {
+        margin-left: 7%;
+    }
+    button {
+        margin: 60px 0 0 0;
+    }
 }
 
 

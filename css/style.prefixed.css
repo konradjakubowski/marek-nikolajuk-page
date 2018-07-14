@@ -300,6 +300,28 @@ body {
   font-size: 15px;
 }
 
+.links li {
+  margin-left: 5%;
+}
+
+.links a {
+  color: #a38d35;
+  transition: .4s;
+}
+
+.links a:hover {
+  color: #DBC165;
+  text-decoration: none;
+}
+
+.links p {
+  margin-left: 7%;
+}
+
+.links button {
+  margin: 60px 0 0 0;
+}
+
 /* MEDIA QUERIES */
 /*
 @media (min-width: 300px) and (max-width: 430px) { 
