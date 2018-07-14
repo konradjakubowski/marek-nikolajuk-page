@@ -3,7 +3,7 @@ body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } canvas{ display:
 
 @import url('https://fonts.googleapis.com/css?family=Karla:700,700i&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700,800,900&subset=latin-ext');
-
+@import url('https://fonts.googleapis.com/css?family=Courgette&subset=latin-ext');
 /* SASS / SCSS */
 
 .bg-pos {
@@ -33,6 +33,9 @@ body {
     .hero-center {
         padding: 22%;
     }
+    .quote {
+        font-family: 'Courgette', cursive;
+    }
     .nav {
         padding: 30px 0 0 0;
         margin: 0 auto;
@@ -53,7 +56,6 @@ body {
     }
 }
 .intro {
-    text-align: center;
     padding: 6% 0;
     h4 {
         color: #DBC165;
@@ -63,6 +65,7 @@ body {
         color: #546069;
         font-size: 20px;
         padding-top: 20px;
+        text-align: left;
     }
     a {
         color: #a38d35;
@@ -71,6 +74,18 @@ body {
             color: #DBC165;
             text-decoration: none;
         }
+    }
+    img {
+        width: 70%;
+    }
+    .intro-center {
+        padding-top: 5%;
+    }
+    .image-blurred-edge {
+        background-image: url('http://alpha.uwb.edu.pl/mrk/mrk.2015.jpg');
+        width: 450px;
+        height: 450px;
+        box-shadow: 0 0 8px 8px white inset;
     }
 }
 .interests {
