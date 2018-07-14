@@ -243,16 +243,10 @@ body {
 /* MEDIA QUERIES */
 @media (min-width: 300px) and (max-width: 430px) { 
     .hero .nav {
-        padding-top: 35%;
-    }
-    .hero .nav li {
-        margin-top: 25px;
+        height: 100vh;
     }
     .hero .hero-center {
         display: none;
-    }
-    .intro {
-        margin-top: 50%;
     }
     .intro .intro-center {
         text-align: center;
@@ -304,11 +298,21 @@ body {
     .links li {
         margin-left: 30px;
     }
-
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 431px) and (max-width: 767px) {
-    
+    .hero .nav {
+        height: 100vh;
+    }
+    .hero .hero-center {
+        display: none;
+    }
+    .intro {
+        text-align: center;
+    }
+    .intro .intro-center p {
+        text-align: center;
+    }
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991px) { 
