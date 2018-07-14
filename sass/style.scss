@@ -115,6 +115,17 @@ body {
         }
     }
 }
+.cv {
+    padding: 3% 0;
+    text-align: center;
+    h4 { 
+        color: #DBC165;
+        font-weight: bold;
+    }
+    button {
+        margin-top: 10%;
+    }
+}
 .contact-map {
     text-align: center;
     padding: 3% 0;
@@ -176,6 +187,21 @@ body {
     }
     button {
         margin: 60px 0 40px 0;
+    }
+}
+.links {
+    padding: 4% 0;
+    h2 {
+        padding: 1% 0;
+    }
+    h4 { 
+        color: #DBC165;
+        font-weight: bold;
+        padding: 2% 0;
+    }
+    ul {
+        color: #546069;
+        font-size: 15px;
     }
 }
 
