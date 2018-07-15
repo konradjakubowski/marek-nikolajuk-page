@@ -324,6 +324,23 @@ body {
     .intro .intro-center p {
         text-align: center;
     }
+    .interests {
+        padding: 10% 0;
+    }
+    .interests .interests-mobile {
+        margin: 0;
+    }
+    .cv .mobile-btn {
+        margin-left: 0;
+    }
+    .contact-map .mobile-map {
+        width: 90%;
+        padding: 7% 0;
+    }
+    .contact-me .mobile-center {
+        margin: 0;
+        text-align: center;
+    }
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991px) { 
