@@ -305,8 +305,12 @@ body {
   margin: 60px 0 40px 0;
 }
 
+.papers .mobile-button {
+  margin: 0 auto;
+}
+
 .links {
-  padding: 4% 0;
+  padding: 7% 0 3% 0;
 }
 
 .links h2 {
@@ -407,7 +411,7 @@ body {
     margin: 0;
   }
   .links {
-    margin-top: 50%;
+    margin-top: 10%;
   }
   .links .mobile-center {
     margin: 0;
@@ -446,6 +450,21 @@ body {
   .contact-me .mobile-center {
     margin: 0;
     text-align: center;
+  }
+  .papers .mobile-button {
+    margin: 0;
+  }
+  .teaching {
+    padding: 5% 5%;
+  }
+  .teaching .mobile-center {
+    margin: 0;
+  }
+  .links {
+    padding-top: 5%;
+  }
+  .links .mobile-center {
+    margin: 0;
   }
 }
 
@@ -486,6 +505,18 @@ body {
     margin: 0;
     text-align: center;
   }
+  .teaching {
+    padding: 20% 0 0 0;
+  }
+  .teaching .mobile-center {
+    margin: 0;
+  }
+  .links {
+    padding-top: 20%;
+  }
+  .links .mobile-center {
+    margin: 0;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -502,6 +533,12 @@ body {
   .contact-me {
     padding: 2% 0;
   }
+  .papers .mobile-button {
+    margin: 0 auto;
+  }
+  .links {
+    padding-top: 15%;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1499px) {
@@ -514,6 +551,12 @@ body {
   }
   .contact-me {
     padding: 2% 0;
+  }
+  .papers .mobile-button {
+    margin: 0 auto;
+  }
+  .links {
+    padding-top: 5%;
   }
 }
 /*# sourceMappingURL=style.prefixed.css.map */
