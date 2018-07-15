@@ -119,7 +119,7 @@ body {
 }
 
 .intro {
-  padding: 6% 0;
+  padding: 9% 0 3% 0;
 }
 
 .intro h4 {
@@ -498,6 +498,19 @@ body {
   }
   .intro .image-wrapper {
     margin: 0;
+  }
+  .contact-me {
+    padding: 2% 0;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+  .hero .nav {
+    height: 30vh;
+  }
+  .intro {
+    text-align: center;
+    padding-top: 10%;
   }
   .contact-me {
     padding: 2% 0;
