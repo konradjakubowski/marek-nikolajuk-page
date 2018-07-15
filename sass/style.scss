@@ -33,6 +33,9 @@ body {
     .hero-center {
         padding: 22%;
     }
+    h2 {
+        padding-bottom: 15px;
+    }
     .quote {
         font-family: 'Courgette', cursive;
     }
@@ -56,7 +59,7 @@ body {
     }
 }
 .intro {
-    padding: 9% 0 3% 0;
+    padding: 3% 0 3% 0;
     h4 {
         color: #DBC165;
         font-weight: bold;
@@ -439,7 +442,6 @@ body {
     }
     .intro {
         text-align: center;
-        padding-top: 10%;
     }
     .contact-me {
         padding: 2% 0;
