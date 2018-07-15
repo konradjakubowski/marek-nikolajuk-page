@@ -344,6 +344,7 @@ body {
 @media (min-width: 300px) and (max-width: 430px) {
   .hero .nav {
     height: 100vh;
+    padding-bottom: 40px;
   }
   .hero .hero-center {
     display: none;
@@ -365,6 +366,12 @@ body {
     margin: 0 auto;
     padding-top: 10%;
   }
+  .interests {
+    padding: 10% 0;
+  }
+  .interests ul {
+    font-size: 17px;
+  }
   .interests .interests-mobile {
     margin-left: 0;
   }
@@ -374,6 +381,10 @@ body {
   .contact-map .mobile-map {
     width: 90%;
     padding: 10% 0;
+  }
+  .contact-me .mobile-center {
+    margin: 0;
+    text-align: center;
   }
   .papers {
     margin-top: 50%;
