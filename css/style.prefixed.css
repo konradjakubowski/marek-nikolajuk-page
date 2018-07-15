@@ -487,4 +487,20 @@ body {
     text-align: center;
   }
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero .nav {
+    height: 30vh;
+  }
+  .intro {
+    text-align: center;
+    margin-top: 10%;
+  }
+  .intro .image-wrapper {
+    margin: 0;
+  }
+  .contact-me {
+    padding: 2% 0;
+  }
+}
 /*# sourceMappingURL=style.prefixed.css.map */
