@@ -3,6 +3,8 @@ canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700,800,900&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Courgette&subset=latin-ext');
 /* SASS / SCSS */
+$orange: #DBC165;
+$white: #fff;
 .bg-pos {
     background-position: center;
     background-repeat: no-repeat;
@@ -11,7 +13,6 @@ canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container
 .reset {
     margin: 0;
 }
-$orange: #DBC165;
 /* SASS / SCSS END */
 
 body {
@@ -20,7 +21,7 @@ body {
 }
 .hero {
     @extend .bg-pos;
-    color: #fff;
+    color: $white;
     text-align: center;
     font-weight: bold;
     ul {
@@ -51,7 +52,7 @@ body {
     }
     a {
         text-decoration: none;
-        color: #fff;
+        color: $white;
         font-size: 20px;
         transition: .4s;
         &:hover {
@@ -103,14 +104,14 @@ body {
     h4 {
         padding: 20px 0;
         text-align: center;
-        color: #fff;
+        color: $white;
         font-weight: bold;
     }
     ul {
         padding-top: 20px;
         text-align: left;
         font-size: 20px;
-        color: #fff;
+        color: $white;
         line-height: 40px;
     }
 }
