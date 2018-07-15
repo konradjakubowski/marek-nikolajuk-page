@@ -448,4 +448,43 @@ body {
     text-align: center;
   }
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero .nav {
+    height: 30vh;
+  }
+  .hero-center h2 {
+    margin-bottom: 30px;
+  }
+  .intro {
+    text-align: center;
+    margin-top: 15%;
+  }
+  .intro .intro-center p {
+    text-align: center;
+  }
+  .intro .image-wrapper {
+    margin: 0;
+  }
+  .intro .image-blurred-edge {
+    margin-left: 18%;
+  }
+  .interests {
+    padding: 10% 0;
+  }
+  .interests .interests-mobile {
+    margin: 0;
+  }
+  .cv .mobile-btn {
+    margin-left: 0;
+  }
+  .contact-map .mobile-map {
+    width: 90%;
+    padding: 7% 0;
+  }
+  .contact-me .mobile-center {
+    margin: 0;
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=style.prefixed.css.map */
